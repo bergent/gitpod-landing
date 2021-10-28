@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f3f4;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  margin-bottom: 20px;
+}
+
+.header-menu {
+  display: flex;
+  list-style: none;
+  margin-left: 37px;
+}
+
+.header-menu-item {
+  margin-right: 48px;
+}
+
+.header-menu-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(18, 16, 12, 0.7);
+}
+
+.header-login {
+  display: block;
+  padding: 4px 21px;
+  text-decoration: none;
+  background: #12100c;
+  border: 2px solid #12100c;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f9f9f9;
+  transition: 200ms ease;
+}
+
+.header-login:hover {
+  background: #fff;
+  border: 2px solid #12100c;
+  color: #12100c;
+}
+
+.promo {
+  padding: 130px 65px;
+  background-image: url("../img/promo-bg.png");
+  background-repeat: no-repeat;
+  background-position: 91%;
+}
+
+.promo-title {
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 39px;
+  font-size: 80px;
+  line-height: 88px;
+  color: #12100c;
+}
+
+.promo-description {
+  margin-bottom: 48px;
+  width: 460px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 32px;
+  color: rgba(18, 16, 12, 0.7);
+}
+
+.button-section {
+  display: flex;
+}
+
+.promo-button {
+  margin-right: 24px;
+  display: block;
+  padding: 12px 46px;
+  background: #ffae33;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  width: 160px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #12100c;
+  text-decoration: none;
+  transition: 200ms ease;
+}
+
+.promo-button:hover {
+  background: #12100c;
+  color: #ffae33;
+}
+
+.button-info {
+  width: 190px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(18, 16, 12, 0.7);
+}
+
+.promo-socials {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 8px;
+}
+
+.social-link {
+  display: block;
+  margin-right: 28px;
+  width: 29px;
+  height: 29px;
+  transition: 200ms ease;
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+}
+
+.fox {
+  background: transparent url("../img/fox.png") center center no-repeat;
+}
+
+.github {
+  background: transparent url("../img/github.png") center center no-repeat;
+}
+
+.square {
+  background: transparent url("../img/square.png") center center no-repeat;
+}
