@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <header class="header container">
+    <header class="header header-container">
       <a href="index.html" class="logo-link"
         ><img width="131" height="40" src="img/logo.png" alt="Gitpod"
       /></a>
@@ -42,24 +42,66 @@
       </nav>
       <a href="" class="header-login">Login</a>
     </header>
-
     <section class="promo container">
-      <h1 class="promo-title">Always<br />Ready to Code.</h1>
-      <p class="promo-description">
-        Spin up fresh, automated dev environments for each task, in the cloud,
-        in seconds.
-      </p>
-      <div class="button-section">
-        <a href="#" class="promo-button">Try Now</a>
-        <aside class="button-info">
-          Open a workspace. <br />Start from any Git context.
-        </aside>
+      <div class="promo-text-block">
+        <h1 class="promo-title">Always<br />Ready to Code.</h1>
+        <p class="promo-description">
+          Spin up fresh, automated dev environments for each task, in the cloud,
+          in seconds.
+        </p>
+        <div class="button-section">
+          <a href="#" class="promo-button">Try Now</a>
+          <aside class="button-info">
+            Open a workspace. <br />Start from any Git context.
+          </aside>
+        </div>
+        <div class="promo-socials">
+          <a href="#" class="social-link fox"></a>
+          <a href="#" class="social-link github"></a>
+          <a href="#" class="social-link square"></a>
+        </div>
       </div>
-      <div class="promo-socials">
-        <a href="#" class="social-link fox"></a>
-        <a href="#" class="social-link github"></a>
-        <a href="#" class="social-link square"></a>
+      <img
+        width="700"
+        height="672"
+        src="img/promo-bg.png"
+        alt="Promo Image"
+        class="promo-image"
+      />
+    </section>
+    <section class="promo-motto container">
+      <h2 class="promo-motto">
+        Select project, <br />
+        <span class="motto-line-through">
+          check dependencies, checkout branch, view <br />readme.txt, install
+          tools, run build, run test,
+        </span>
+        <br />
+        start coding.
+      </h2>
+    </section>
+
+    <section class="about-product container">
+      <div class="about-text">
+        <h2 class="about-title">Think CI/CD for dev environments</h2>
+        <p class="about-description">
+          We invented prebuilds so application code, configuration and
+          infrastructure can all be stored as machine-executable code in your
+          git repositories and applied to dev environments automatically and
+          continuously.
+        </p>
+        <div class="about-buttons">
+          <a href="" class="about-button more">More on prebuilds</a>
+          <a href="" class="about-button docs">Documentation</a>
+        </div>
       </div>
+      <img
+        width="590"
+        height="472"
+        src="img/about.png"
+        alt="Code example"
+        class="about-image"
+      />
     </section>
   </body>
 </html>
